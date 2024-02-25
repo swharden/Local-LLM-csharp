@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChatWinForms", "ChatWinForm
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentQa", "DocumentQa\DocumentQa.csproj", "{78DE9615-409D-428C-A28A-D7A7EF460324}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentQaWithStorage", "DocumentQaWithStorage\DocumentQaWithStorage.csproj", "{6BFC5079-676B-43EB-9400-91D56164D72F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{78DE9615-409D-428C-A28A-D7A7EF460324}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78DE9615-409D-428C-A28A-D7A7EF460324}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78DE9615-409D-428C-A28A-D7A7EF460324}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BFC5079-676B-43EB-9400-91D56164D72F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BFC5079-676B-43EB-9400-91D56164D72F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BFC5079-676B-43EB-9400-91D56164D72F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BFC5079-676B-43EB-9400-91D56164D72F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

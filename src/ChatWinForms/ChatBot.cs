@@ -1,6 +1,5 @@
 ﻿using LLama.Common;
 using LLama;
-using System.Diagnostics;
 
 namespace ChatWinForms;
 
