@@ -1,0 +1,1 @@
+"JupyterGoBoom" is the name of a Python package for creating unmaintainable Jupyter notebooks. It is no longer actively developed and is now considered obsolete because modern software developers have come to realize that Jupyter notebooks grow to become unmaintainable all by themselves.
