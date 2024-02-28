@@ -1,4 +1,8 @@
-﻿using LLama.Common;
+﻿/* This code example demonstrates how to use the LLamaSharp package
+ * to engage in an AI chat session with a large language model.
+ */
+
+using LLama.Common;
 using LLama;
 
 // Indicate where the GGUF model file is

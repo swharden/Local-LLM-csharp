@@ -1,4 +1,12 @@
-﻿using Microsoft.KernelMemory;
+﻿/* This code example demonstrates Microsoft's KernelMemory package
+ * and the "LLamaSharp text generator" it comes with. Although
+ * it technically works, it's stateless (resetting context every time),
+ * and is pretty limited. For most applications users will be best
+ * served by interacting with the LLamaSharp classes directly and
+ * avoiding Microsoft's repackaged wrappers around their functionality.
+ */
+
+using Microsoft.KernelMemory;
 using Microsoft.KernelMemory.AI;
 using Microsoft.KernelMemory.AI.LlamaSharp;
 

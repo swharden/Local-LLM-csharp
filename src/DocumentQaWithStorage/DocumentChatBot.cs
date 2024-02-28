@@ -9,6 +9,12 @@ using Microsoft.KernelMemory.MemoryStorage.DevTools;
 
 namespace DocumentQaWithStorage;
 
+/// <summary>
+/// This class is a wrapper for KernelMemory and LLamaSharp which
+/// allows documents to be ingested and their information to be stored
+/// locally such that the information can be recalled when the program
+/// restarts instead of requiring slow re-analysis of documents.
+/// </summary>
 public class DocumentChatBot
 {
     public string StorageFolder => Path.GetFullPath($"./storage-{nameof(DocumentChatBot)}");

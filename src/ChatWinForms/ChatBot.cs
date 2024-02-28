@@ -3,6 +3,11 @@ using LLama;
 
 namespace ChatWinForms;
 
+/// <summary>
+/// This class wraps a LLamaSharp chat session and exposes events
+/// to make it easier to engage in chat with a model while invoking
+/// events to update the GUI at various points along the way.
+/// </summary>
 internal class ChatBot
 {
     readonly ChatSession Session;
