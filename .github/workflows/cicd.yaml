@@ -1,0 +1,28 @@
+name: CI
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - src/**
+
+env:
+  DOTNET_VERSION: "8.0.x"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Build
+    steps:
+      - name: 🛒 Checkout
+        uses: actions/checkout@v4
+      - name: ✨ Setup .NET ${{ env.DOTNET_VERSION }}
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: ${{ env.DOTNET_VERSION }}
+      - name: 🚚 Restore
+        run: dotnet restore src
+      - name: 🛠️ Build
+        run: dotnet build src
